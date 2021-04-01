@@ -44,4 +44,79 @@
 
 <p id="text" style="text-align:center">Alguns exemplos decorativos com os nossos produtos, que podem servir de inspiração para o seu projeto!</p>
 
+<div class="slideshow">
+  <div class="slider">
+    <div class="slides">
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <input type="radio" name="radio-btn" id="radio5">
+      <input type="radio" name="radio-btn" id="radio6">
+      <input type="radio" name="radio-btn" id="radio7">
+      <input type="radio" name="radio-btn" id="radio8">
+      
+      <div class="slide first">
+        <img src="Jardim1.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="Jardim2.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="Jardim3.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="Jardim4.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="Jardim5.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="Jardim6.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="Jardim7.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="Jardim8.jpg" alt="">
+      </div>
+
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+        <div class="auto-btn5"></div>
+        <div class="auto-btn6"></div>
+        <div class="auto-btn7"></div>
+        <div class="auto-btn8"></div>
+      </div>
+    </div>
+
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+      <label for="radio5" class="manual-btn"></label>
+      <label for="radio6" class="manual-btn"></label>
+      <label for="radio7" class="manual-btn"></label>
+      <label for="radio8" class="manual-btn"></label>
+    </div>
+  </div>
+</div>
+
+<script>
+  var counter = 1;
+  setInterval(function(){
+    document.getElementById("radio" + counter).checked = true;
+    counter++;
+    if(counter > 8){
+      counter=1;
+    }
+  }, 4000);
+
+</script>
+
+
 @endsection

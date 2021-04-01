@@ -50,30 +50,6 @@
       <p id="text">Somos uma empresa formada por uma equipa dinâmica e criada com o objetivo de produzir e comercializar produtos de jardinagem. Assentando sobretudo a sua produção na transformação de pedras decorativas naturais, pintadas e areias, para uma aplicação nos mais variados fins, tais como decoração, jardins, lagos, aquários, pavimentos, resinas, construção civil, etc... <br>
       Os nossos técnicos encontram-se ao vosso inteiro dispor para qualquer aconselhamento que lhes pareça necessário.</p>
     </div>
-    <!--<div class="col-md-6">
-      <p id="title">NÚMEROS</p>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="container">
-              <div class="white-box" style="background-color: white">
-                <div class="featured" id="proj" style="font-size: 30px; font-family: 'Russo One', sans-serif; text-align: center; color:#c2e7cf"></div>
-                  <div class="vertical-text" style="font-size: 20px; text-align: center"><span>PROJETOS</span></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="white-box" style="background-color: white">
-                <div class="featured" id="ton" style="font-size: 30px; font-family: 'Russo One', sans-serif; text-align: center; color:#c2e7cf"></div>
-                  <div class="vertical-text" style="font-size: 20px; text-align: center"><span>TONELADAS VENDIDAS</span></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>-->
   </div>
 </div>
 
@@ -81,9 +57,9 @@
   <div class="row" id="cards">
     <div class="col-md-4">
       <div class="card">
-        <img src="PretoCarapinhaROL.jpg" style="width:100%">
+        <img src="VermelhoParisROL.jpg" style="width:100%">
         <div class="container">
-          <h4>Preto Carapinha</h4>
+          <h4>Vermelho Paris</h4>
         </div>
       </div>
     </div>
@@ -97,39 +73,12 @@
     </div>
     <div class="col-md-4">
       <div class="card">
-        <img src="CinzentoVianaROL.jpg" style="width:100%">
+        <img src="PretoCarapinhaROL.jpg" style="width:100%">
         <div class="cont">
-          <h4>Cinzento Viana</h4>
+          <h4>Preto Carapinha</h4>
         </div>
       </div>
     </div>
   </div>
-
-
-<script>
-
-setTimeout(start, 1000);
-
-var i = 1;
-var j=1;
-var num = document.getElementById("proj");
-var num2 = document.getElementById("ton");
-
-function start() {
-  setInterval(increase, 20);
-}
-
-function increase() {
-    if (i < 240) {
-      i++;
-      num.innerText = i;
-    }
-    if (j < 7000) {
-      j=j+50;
-      num2.innerText = j;
-    }
-}
-
-</script>
 
 @endsection

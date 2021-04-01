@@ -26,7 +26,6 @@
         <div class="col-md-6" style="margin:auto; text-align: justify">
           <a class="links" href="{{route ('mg')}}"><img class="icons" src="pedras.png">Home<br></a>
           <a class="links" href="{{route ('sobre')}}"><img class="icons" src="pedras.png">Empresa<br></a>
-          <a class="links" href=""><img class="icons" src="pedras.png">Produtos<br></a>
           <a class="links" href="{{route ('galeria')}}"><img class="icons" src="pedras.png">Galeria<br></a>
           <a class="links" href="{{route ('contactos')}}"><img class="icons" src="pedras.png">Contactos<br></a>
         </div>

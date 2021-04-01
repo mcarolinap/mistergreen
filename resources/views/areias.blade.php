@@ -42,6 +42,53 @@
     </div>
 </div>
 
+<div class="col-md-auto">
+  <div class="row" style="margin:30px">
+    <div class="col-md-6">
+      <div class="image">
+        <img class="image_img" src="Matizadas.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <p class="image_description">Matizadas</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="image">
+        <img class="image_img" src="Quartzo.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <p class="image_description">Quartzo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin:30px">
+    <div class="col-md-6">
+      <div class="image">
+        <img class="image_img" src="Saibro.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <p class="image_description">Saibro</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="image">
+        <img class="image_img" src="Silica.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <p class="image_description">Sílica</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 

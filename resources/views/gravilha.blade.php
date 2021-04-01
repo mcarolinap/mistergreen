@@ -42,123 +42,180 @@
     </div>
 </div>
 
-<div class="container" id="pedras">
-  <div class="row">
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="AmareloBrangancaGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Amarelo Bragança</a></b>
-      </div>
-      </div>
-    </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="AmareloLimaoGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Amarelo Limão</a></b>
-      </div>
+<div class="col-md-auto">
+  <div class="row" style="margin:30px">
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="AmareloBrangancaGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Amarelo Bragança</p></a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="AmareloPanamaGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Amarelo Panamá</a></b>
-      </div>
-      </div>
-    </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="AmareloRibatejoGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Amarelo Ribatejo</a></b>
-      </div>
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="AmareloLimaoGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Amarelo Limão</p></a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="BrancoAlentejoGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Branco Alentejo </a></b>
-      </div>
-      </div>
-    </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="BrancoPirineusGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Branco Pirinéus</a></b>
-      </div>
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="AmareloPanamaGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Amarelo Panamá</p></a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="CinzentoLondresGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Cinzento Londres</a></b>
-      </div>
-      </div>
-    </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="CinzentoVianaGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Cinzento Viana</a></b>
-      </div>
+  </div>
+  <div class="row" style="margin:30px">
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="AmareloRibatejoGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Amarelo Ribatejo</p></a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="MarfimSTomeGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Marfim de São Tomé</a></b>
-      </div>
-      </div>
-    </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="PretoCarapinhaGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Preto Carapinha</a></b>
-      </div>
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="BrancoAlentejoGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Branco Alentejo</p></a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="RosaBrasilGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Rosa Brasil</a></b>
-      </div>
-      </div>
-    </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="RosaMaltaGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Rosa de Malta</a></b>
-      </div>
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="BrancoPirineusGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Branco Pirinéus</p></a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="SalmaoGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Salmão</a></b>
-      </div>
-      </div>
-    </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="VerdePanamaGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Verde Panamá</a></b>
-      </div>
+  </div>
+  <div class="row" style="margin:30px">
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="CinzentoLondresGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Cinzento Londres</p></a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-4" style="padding-top: 30px">
-      <img src="VermelhoParisGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Vermelho Paris</a></b>
-      </div>
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="CinzentoVianaGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Cinzento Viana</p></a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-4" style="padding-top: 30px; padding-bottom: 30px">
-      <img src="VulcanicaGRAV.jpg" class="image" id="img-pedras">
-      <div class="overlay">
-      <div class="label"><b><a class="label-link" href="{{route('quantidades')}}">Vulcânica</a></b>
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="MarfimSTomeGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Marfim de São Tomé</p></a>
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
+  <div class="row" style="margin:30px">
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="PretoCarapinhaGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Preto Carapinha</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="RosaBrasilGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Rosa Brasil</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="RosaMaltaGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Rosa de Malta</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin:30px">
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="SalmaoGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Salmão</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="VerdePanamaGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Verde Panamá</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="VermelhoParisGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Vermelho Paris</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin:30px">
+    <div class="col-md-4">
+      <div class="image">
+        <img class="image_img" src="VulcanicaGRAV.jpg">
+        <div class="image_overlay">
+          <div class="image_title">
+            <a class="link" href="{{route ('quantidades')}}"><p class="image_description">Vulcânica</p></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
-
 
 
 @endsection

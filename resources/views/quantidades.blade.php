@@ -42,35 +42,49 @@
     </div>
 </div>
 
-<div class="container" style="height: 350px">
-<p style="font-size: 25px">Por favor selecione o calibre da pedra que pretende, a expessura da camada a construir, e indique o tamanho em metros quadrados da área a construir.</p>
-<div class="w-container" style="background-color: #f0f0f0bd; height:300px; margin-top: 30px" >
-<form action="">
-    <label for="calibre" style="font-size: 20px; padding: 30px">Calibre da Pedra:</label>
-    <select id="calibre" name="calibre">
-        <option value="10/20">10/20</option>
-        <option value="20/40">20/40</option>
-        <option value="40/60">40/60</option>
-        <option value="60/100">60/100</option>
-        <option value="100/200">100/200</option>
-    </select>
-    <label for="expessura" style="font-size: 20px; padding: 30px">Expessura da camada:</label>
-    <select id="expessura" name="expessura">
-        <option value="5">5 cm</option>
-        <option value="7">7 cm</option>
-        <option value="10">10 cm</option>
-        <option value="12">12 cm</option>
-        <option value="25">25 cm</option>
-    </select>
-    <label for="area" style="font-size: 20px; padding: 30px">Área a construir (m2):</label>
-    <input type="number" id="area" name="area" step="any">
-</form>
-<p style="font-size: 20px; text-align: center">Total de pedra em toneladas:</p>
+<p id="text">Por favor selecione o calibre da pedra que pretende, a expessura da camada a construir, e indique o tamanho em metros quadrados da área a construir.</p>
+
+<div class="w-container" style="background-color: #f0f0f0bd;">
+  <div class="container">
+    <form action="" id="text">
+        <label for="calibre">Calibre da Pedra:</label>
+        <select id="calibre" name="calibre">
+            <option value="10/20">10/20</option>
+            <option value="20/40">20/40</option>
+            <option value="40/60">40/60</option>
+            <option value="60/100">60/100</option>
+            <option value="100/200">100/200</option>
+        </select>
+        <label for="expessura">Expessura da camada:</label>
+        <select id="expessura" name="expessura">
+            <option value="5">5 cm</option>
+            <option value="7">7 cm</option>
+            <option value="10">10 cm</option>
+            <option value="12">12 cm</option>
+            <option value="25">25 cm</option>
+        </select>
+        <label for="area">Área a construir (m2):</label>
+        <input type="number" id="area" name="area" step="any">
+        <input type="submit" value="Calcular">
+    </form>
+    <p id="text">Total de pedra em toneladas:</p>
+  </div>
 </div>
 
+<p id="text">Peça já o seu orçamento! Contacte-nos para mais informações!</p>
 </div>
 
+<script>
 
+var total=0;  
+var calibre = document.getElementById("calibre");
+var expessura = document.getElementById("expessura");
+var area = document.getElementById("area");
 
+function calculate() {
+  total=expessura*area;
+}
+
+</script>
 
 @endsection
