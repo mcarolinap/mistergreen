@@ -1,5 +1,10 @@
 
 /* Navbar */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 #logo{
     margin-left: 50px ;
@@ -146,66 +151,210 @@
     border-radius: 0 0 5px 5px;
   }
 
-/* Página Pedra Rolada */
+/* Página Produtos */
 
-#pedras{
-    position: relative;
-    width: 100%;
-    margin:auto;
-    padding:30px;
+.image{
+  position:relative;
+  width:100%;
 }
 
-#img-pedras{
-    display: block;
-    width: 100%;
-    height: auto;
-    margin:auto
+.image_img{
+  display: block;
+  width:100%;
+  height:auto;
 }
 
-.overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #c2e7cf;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-  }
-
-  .container:hover .overlay {
-    height: 80%;
-  }
-
-  .label {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
-  .label-link {
-    color:white !important;
+.image_overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: Bai Jamjuree;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
 }
 
-/* Página Gravilha */
+.image_overlay > *{
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
 
-/* Página Areias */
+.image_overlay:hover{
+  opacity: 1;
+}
 
-/* Tamanhos e Quantidades */
+.image_overlay:hover > *{
+  transform: translateY(0)
+}
 
-/* Galeria */
+.image_title{
+  font-size:25px;
+  font-weight: bold;
+}
+
+.image_description{
+  font-size:1.25em;
+  margin-top:0.25em;
+}
+
+.link{
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.link:hover{
+  color: #1c8739 !important;
+}
+
+/* Página Galeria */
+
+.slideshow{
+  padding:0;
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
+.slider{
+  width:800px;
+  height:500px;
+  border-radius:10px;
+  overflow:hidden;
+}
 
+.slides{
+  width:500%;
+  height:500px;
+  display:flex;
+}
 
+.slides input {
+  display: none;
+}
 
+.slide{
+  width:20%;
+  transition:2s;
+}
 
+.slide img{
+  width:800px;
+  height:500px;
+}
 
+.navigation-manual{
+  position: absolute;
+  width:800px;
+  margin-top:-40px;
+  display:flex;
+  justify-content: center;
+}
 
+.manual-btn{
+  border:2px solid #1c8739;
+  padding:5px;
+  border-radius: 10px;
+  cursor:pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;;
+}
+
+.manual-btn:hover{
+  background:#1c8739;
+}
+
+#radio1:checked ~ .first{
+  margin-left:0;
+}
+
+#radio2:checked ~ .first{
+  margin-left:-20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left:-40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left:-60%;
+}
+
+#radio5:checked ~ .first{
+  margin-left:-80%;
+}
+
+#radio6:checked ~ .first{
+  margin-left:-100%;
+}
+
+#radio7:checked ~ .first{
+  margin-left:-120%;
+}
+
+#radio8:checked ~ .first{
+  margin-left:-140%;
+}
+
+.navigation-auto{
+  position:absolute;
+  display: flex;
+  width:800px;
+  justify-content: center;
+  margin-top:460px;
+}
+
+.navigation-auto div{
+  border:2px solid #1c8739;
+  padding:5px;
+  border-radius:10px;
+  transition:1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right:40px;
+}
+
+#radio1:checked ~.navigation-auto .auto-btn1{
+  background: #1c8739;
+}
+
+#radio2:checked ~.navigation-auto .auto-btn2{
+  background: #1c8739;
+}
+
+#radio3:checked ~.navigation-auto .auto-btn3{
+  background: #1c8739;
+}
+
+#radio4:checked ~.navigation-auto .auto-btn4{
+  background: #1c8739;
+}
+
+#radio5:checked ~.navigation-auto .auto-btn5{
+  background: #1c8739;
+}
+
+#radio6:checked ~.navigation-auto .auto-btn6{
+  background: #1c8739;
+}
+
+#radio7:checked ~.navigation-auto .auto-btn7{
+  background: #1c8739;
+}
+
+#radio8:checked ~.navigation-auto .auto-btn8{
+  background: #1c8739;
+}
